@@ -19,6 +19,9 @@ cp /etc/X11/xinit/xinitrc .xinitrc
 # Compositor
 sudo pacman -S picom -y
 
+# Polybar
+sudo pacman -S polybar -y
+
 # Application Launcher
 sudo pacman -S rofi -y
 
