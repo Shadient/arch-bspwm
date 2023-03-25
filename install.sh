@@ -38,6 +38,7 @@ cd ~
 
 # Application Launcher
 sudo pacman -S rofi -y
+mkdir ~/.config
 
 # Browser
 sudo pacman -S brave-browser -y
