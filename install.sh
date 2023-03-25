@@ -6,13 +6,18 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Terminal Emulator
 sudo pacman -S alacritty -y
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/alacritty/alacrity.yml > ~/.config/alacritty/alacritty.yml
 
 # Tiling Window Manager
 sudo pacman -S bspwm sxhkd -y
+
 mkdir ~/.config/bspwm
 cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/bspwm/bspwmrc > ~/.config/bspwm/bspwmrc
+
 mkdir ~/.config/sxhkd
 cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/sxhkd/sxhkdrc > ~/.config/sxhkd/sxhkdrc
 
 cp /etc/X11/xinit/xinitrc .xinitrc
 
