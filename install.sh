@@ -24,6 +24,13 @@ sudo pacman -S polybar -y
 mkdir ~/.config/polybar
 touch ~/.config/polybar/config
 
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/polybar/config > ~/.config/polybar/config
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/polybar/launch.sh > ~/.config/polybar/launch.sh
+
+cd .config/polybar
+chmod +x launch.sh
+cd ~
+
 # Application Launcher
 sudo pacman -S rofi -y
 
