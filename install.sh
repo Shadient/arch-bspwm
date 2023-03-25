@@ -21,6 +21,8 @@ sudo pacman -S picom -y
 
 # Polybar
 sudo pacman -S polybar -y
+mkdir ~/.config/polybar
+touch ~/.config/polybar/config
 
 # Application Launcher
 sudo pacman -S rofi -y
