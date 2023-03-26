@@ -11,3 +11,5 @@ curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/sxhkd/sxhkdrc > 
 
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/X11/.xinitrc > ~/.xinitrc
+
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/picom/picom.conf > /etc/xdg/picom.conf
