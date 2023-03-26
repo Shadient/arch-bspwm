@@ -8,3 +8,6 @@ curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/bspwm/bspwmrc > 
 mkdir ~/.config/sxhkd
 cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/sxhkd/sxhkdrc > ~/.config/sxhkd/sxhkdrc
+
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+curl https://raw.githubusercontent.com/Shadient/arch-bspwm/main/X11/.xinitrc > ~/.xinitrc
